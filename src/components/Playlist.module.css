@@ -1,5 +1,20 @@
 .wrapper { border-top: 1px solid #f0f0f0; }
+
 .header { padding: 10px 1.25rem 6px; font-size: 11px; font-weight: 600; color: #aaa; letter-spacing: 0.07em; text-transform: uppercase; margin: 0; }
+
+/* Search */
+.searchBox { display: flex; align-items: center; margin: 0 1.25rem 6px; background: #f5f5f8; border-radius: 10px; padding: 6px 10px; gap: 8px; border: 1.5px solid transparent; transition: border 0.2s; }
+.searchBox:focus-within { border-color: #7f77dd; background: #fff; }
+.searchIcon { font-size: 13px; }
+.searchInput { flex: 1; border: none; background: transparent; font-size: 13px; color: #333; outline: none; }
+.searchInput::placeholder { color: #bbb; }
+.clearBtn { background: none; border: none; cursor: pointer; color: #bbb; font-size: 12px; padding: 0 2px; line-height: 1; }
+.clearBtn:hover { color: #888; }
+
+.resultCount { font-size: 11px; color: #aaa; padding: 0 1.25rem 4px; margin: 0; }
+.empty { text-align: center; padding: 1.5rem; font-size: 13px; color: #bbb; }
+
+/* Tracks */
 .item { display: flex; align-items: center; gap: 10px; padding: 8px 1.25rem; cursor: pointer; transition: background 0.12s; outline: none; }
 .item:hover { background: #f8f8fb; }
 .active { background: #f3f1fc; }
