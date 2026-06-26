@@ -1,6 +1,7 @@
 .wrapper { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1.5rem 1rem; }
 .iconBtn { background: none; border: none; cursor: pointer; font-size: 1.25rem; color: #999; padding: 6px; border-radius: 8px; transition: color 0.15s, transform 0.1s; line-height: 1; }
 .iconBtn:hover { color: #333; }
+.dark .iconBtn:hover { color: #eee; }
 .iconBtn:active { transform: scale(0.9); }
 .active { color: #7f77dd !important; }
 .playBtn { width: 52px; height: 52px; border-radius: 50%; background: #534ab7; border: none; cursor: pointer; color: #fff; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; transition: background 0.15s, transform 0.1s; }

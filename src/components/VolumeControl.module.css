@@ -2,3 +2,4 @@
 .icon { font-size: 1rem; min-width: 20px; text-align: center; }
 .slider { flex: 1; height: 4px; accent-color: #7f77dd; cursor: pointer; }
 .value { font-size: 12px; color: #aaa; min-width: 28px; text-align: right; }
+.dark .value { color: #666; }

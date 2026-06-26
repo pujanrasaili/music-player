@@ -1,7 +1,7 @@
 import styles from "./Controls.module.css";
-export default function Controls({ isPlaying, shuffle, repeat, onTogglePlay, onNext, onPrev, onToggleShuffle, onToggleRepeat }) {
+export default function Controls({ isPlaying, shuffle, repeat, onTogglePlay, onNext, onPrev, onToggleShuffle, onToggleRepeat, dark }) {
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} ${dark ? styles.dark : ""}`}>
       <button className={`${styles.iconBtn} ${shuffle ? styles.active : ""}`} onClick={onToggleShuffle} aria-label="Shuffle">⇄</button>
       <button className={styles.iconBtn} onClick={onPrev} aria-label="Previous">⏮</button>
       <button className={styles.playBtn} onClick={onTogglePlay} aria-label={isPlaying ? "Pause" : "Play"}>{isPlaying ? "⏸" : "▶"}</button>
