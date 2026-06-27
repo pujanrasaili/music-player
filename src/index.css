@@ -56,3 +56,30 @@ body {
 .theme-toggle:hover {
   background: rgba(255,255,255,0.25);
 }
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+  body {
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .app {
+    padding: 1rem 0.75rem;
+    gap: 1rem;
+    min-height: 100dvh;
+  }
+
+  .topbar {
+    padding: 0 0.25rem;
+  }
+
+  .app-title {
+    font-size: 1.1rem;
+  }
+
+  .theme-toggle {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

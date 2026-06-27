@@ -12,3 +12,10 @@
   background: #1e1e2e;
   box-shadow: 0 8px 40px rgba(0,0,0,0.5);
 }
+
+@media (max-width: 480px) {
+  .card {
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  }
+}

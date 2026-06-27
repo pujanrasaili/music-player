@@ -3,3 +3,8 @@
 .slider { flex: 1; height: 4px; accent-color: #7f77dd; cursor: pointer; }
 .value { font-size: 12px; color: #aaa; min-width: 28px; text-align: right; }
 .dark .value { color: #666; }
+
+@media (max-width: 480px) {
+  .wrapper { padding: 0 1rem 0.75rem; }
+  .slider { height: 6px; }
+}
